@@ -39,7 +39,7 @@ export function About() {
         </div>
 
         <Card
-          className={`p-8 bg-white dark:bg-white hover-glow transition-all duration-700 delay-200 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+          className={`p-8 glass-card hover-glow transition-all duration-700 delay-200 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
           <div className="space-y-6">
             <div className="flex items-start gap-4">
