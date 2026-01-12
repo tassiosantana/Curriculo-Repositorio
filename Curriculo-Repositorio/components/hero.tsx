@@ -41,23 +41,23 @@ export function Hero() {
           <div
             className={`transition-all duration-700 delay-200 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"}`}
           >
-            <p className="text-xl md:text-2xl text-muted-foreground font-mono flex items-center gap-2 flex-wrap">
+            <p className="text-xl md:text-2xl text-foreground font-mono flex items-center gap-2 flex-wrap">
               <span className="text-primary">&gt;</span>
               <span>Desenvolvedor</span>
               <span className="text-primary">|</span>
-              <span className="text-foreground/80">Lua</span>
+              <span className="text-foreground">Lua</span>
               <span className="text-primary">•</span>
-              <span className="text-foreground/80">JavaScript</span>
+              <span className="text-foreground">JavaScript</span>
               <span className="text-primary">•</span>
-              <span className="text-foreground/80">Python</span>
+              <span className="text-foreground">Python</span>
               <span className="text-primary">•</span>
-              <span className="text-foreground/80">React</span>
+              <span className="text-foreground">React</span>
             </p>
           </div>
 
           {/* Description */}
           <p
-            className={`text-lg text-muted-foreground max-w-2xl leading-relaxed transition-all duration-700 delay-300 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"}`}
+            className={`text-lg text-foreground max-w-2xl leading-relaxed transition-all duration-700 delay-300 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"}`}
           >
             Desenvolvedor com experiência prática em diversas tecnologias, atuando na criação de scripts, automações e
             sistemas funcionais, além de interfaces web modernas, com foco em{" "}
