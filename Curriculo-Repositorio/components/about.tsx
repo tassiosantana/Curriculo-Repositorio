@@ -39,17 +39,17 @@ export function About() {
         </div>
 
         <Card
-          className={`p-8 glass-card hover-glow transition-all duration-700 delay-200 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+          className={`p-8 bg-white dark:bg-white hover-glow transition-all duration-700 delay-200 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
           <div className="space-y-6">
             <div className="flex items-start gap-4">
               <div className="p-3 rounded-xl bg-primary/10 text-primary">
                 <Code2 className="h-6 w-6" />
               </div>
-              <p className="text-lg leading-relaxed text-foreground">
-              Sou um desenvolvedor focado na criação de soluções{" "}
-              <span className="text-primary font-medium">eficientes</span> e{" "}
-              <span className="text-primary font-medium">bem estruturadas</span> através do código. Com experiência em
+              <p className="text-lg leading-relaxed text-foreground/95 font-semibold">
+              Sou um desenvolvedor focado na criação de {" "}
+              <span className="text-primary font-bold">soluções</span> e{" "}
+              <span className="text-primary font-bold">bem estruturadas</span> através do código. Com experiência em
               múltiplas linguagens de programação, mantenho um processo contínuo de evolução técnica, buscando
               constantemente aprimorar minhas habilidades e acompanhar novas tecnologias.
               </p>
@@ -59,9 +59,9 @@ export function About() {
               <div className="p-3 rounded-xl bg-accent/10 text-accent">
                 <Sparkles className="h-6 w-6" />
               </div>
-              <p className="text-lg leading-relaxed text-foreground">
+              <p className="text-lg leading-relaxed text-foreground/95 font-semibold">
                 Minha jornada no desenvolvimento é marcada pelo{" "}
-                <span className="text-accent font-medium">estudo autodidata</span> e pela prática constante em projetos
+                <span className="text-accent font-bold">estudo autodidata</span> e pela prática constante em projetos
                 reais. Acredito que a melhor forma de aprender é colocando a mão na massa e enfrentando desafios reais.
               </p>
             </div>
