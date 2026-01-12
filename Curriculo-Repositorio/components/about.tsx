@@ -48,7 +48,7 @@ export function About() {
               </div>
               <p className="text-lg leading-relaxed text-foreground/95 font-semibold">
               Sou um desenvolvedor focado na criação de {" "}
-              <span className="text-primary font-bold">soluções</span> e{" "}
+              <span className="text-primary font-bold">soluções</span> {" "}
               <span className="text-primary font-bold">bem estruturadas</span> através do código. Com experiência em
               múltiplas linguagens de programação, mantenho um processo contínuo de evolução técnica, buscando
               constantemente aprimorar minhas habilidades e acompanhar novas tecnologias.
